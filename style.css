@@ -1,0 +1,101 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    color: white;
+     font-family: 'Overpass', sans-serif;
+}
+
+
+h1, h2, h3{
+    margin-top: 30px;
+}
+
+
+
+p{
+    margin-top: 30px;
+    font-size: 15px;
+    color:  hsl(217, 12%, 63%);
+    line-height: 25px;
+}
+
+a{
+    margin-top: 30px;
+    display: block;
+    padding: 15px;
+    background-color:  hsl(25, 97%, 53%);
+    text-decoration: none;
+    text-align: center;
+    border-radius: 30px;
+}
+
+a:hover{
+    background-color: white;
+    color: hsl(25, 97%, 53%) ;
+}
+
+
+body{
+    flex-direction: column;
+    justify-content: center;
+    background-color: hsl(216, 12%, 8%);
+}
+
+.nota-user{
+    background-color: hsl(213, 19%, 18%);
+    padding: 30px 40px 30px 30px;
+    margin: 55px;
+    border-radius: 20px;
+
+}
+
+.notas{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nota{
+    padding: 14px;
+    border-radius: 50%;
+    color: hsla(217, 12%, 63%, 0.37) ;
+    background-color:hsla(217, 12%, 63%, 0.11);
+    cursor: pointer;
+}
+
+.nota:hover{
+    color: white;
+
+}
+.star{
+    display: inline-block;
+    padding: 10px;
+    border-radius: 50%;
+    color: hsl(217, 12%, 63%);
+    background-color:hsla(217, 12%, 63%, 0.11) ;
+}
+
+
+
+/* Nota final */
+
+
+.nota-final{
+    display: none;
+    text-align: center;
+}
+
+h2{
+    display: inline-block;
+    font-size: 1em;
+    padding: 8px;
+    border-radius: 50px;
+    color: orange;
+    background-color:hsla(217, 12%, 63%, 0.11);
+    
+}
+h3{
+    font-size: 2em;
+}
